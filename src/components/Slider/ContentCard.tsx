@@ -22,7 +22,7 @@ const ContentCard: FC<ContentCardProps> = ({ data }) => {
         <div className='imageBox'>
           <div className='imageBox-mark'>
             <span>{data.label}</span>
-            <img src="/images/main/slider/save.svg" alt="save" />
+            <img src="images/main/slider/save.svg" alt="save" />
           </div>
           <img src={data.img} alt='slider-img' />
         </div>
@@ -34,7 +34,7 @@ const ContentCard: FC<ContentCardProps> = ({ data }) => {
           <span>
             {data.time}
             <span className='dot'>
-              <img src='/images/main/slider/dot.svg' alt='got' />
+              <img src='images/main/slider/dot.svg' alt='got' />
             </span>
             {data.place}
           </span>
