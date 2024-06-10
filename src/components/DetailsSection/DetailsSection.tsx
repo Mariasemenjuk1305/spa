@@ -34,10 +34,10 @@ const DetailsSection: FC<DetailsSectionProps> = ({
                 </div>
                 <div className='DetailsSection__container--info---title-label'>
                   <span>
-                    <img src='/images/time.svg' alt='time' />
+                    <img src='images/time.svg' alt='time' />
                     <span>{item.time}</span>
                   </span>
-                  <img src='/images/dots.svg' alt='dots' />
+                  <img src='images/dots.svg' alt='dots' />
                 </div>
               </div>
               <div className='DetailsSection__container--info---data'>
@@ -58,10 +58,10 @@ const DetailsSection: FC<DetailsSectionProps> = ({
                       </div>
                       <div>
                         <img
-                          src='/images/draganddrop-small.svg'
+                          src='images/draganddrop-small.svg'
                           alt='draganddrop'
                         />
-                        <img src='/images/dots.svg' alt='dots' />
+                        <img src='images/dots.svg' alt='dots' />
                       </div>
                     </div>
                   </div>
