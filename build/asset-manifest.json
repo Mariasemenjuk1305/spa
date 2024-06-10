@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spa/static/css/main.e7c9582b.css",
-    "main.js": "/spa/static/js/main.fb74846c.js",
+    "main.js": "/spa/static/js/main.6bac9585.js",
     "static/js/453.6b8c0297.chunk.js": "/spa/static/js/453.6b8c0297.chunk.js",
     "static/media/SFProDisplay-Regular.woff2": "/spa/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
     "static/media/IntegralCF-Bold.woff2": "/spa/static/media/IntegralCF-Bold.a03ed367f9c777418467.woff2",
@@ -22,11 +22,11 @@
     "static/media/A-mark.svg": "/spa/static/media/A-mark.033d40b6536e6e32e9b5.svg",
     "static/media/plus-small.svg": "/spa/static/media/plus-small.9e9bec43cfb066164664.svg",
     "main.e7c9582b.css.map": "/spa/static/css/main.e7c9582b.css.map",
-    "main.fb74846c.js.map": "/spa/static/js/main.fb74846c.js.map",
+    "main.6bac9585.js.map": "/spa/static/js/main.6bac9585.js.map",
     "453.6b8c0297.chunk.js.map": "/spa/static/js/453.6b8c0297.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7c9582b.css",
-    "static/js/main.fb74846c.js"
+    "static/js/main.6bac9585.js"
   ]
 }

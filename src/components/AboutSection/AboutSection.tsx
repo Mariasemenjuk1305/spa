@@ -19,7 +19,7 @@ const AboutSection: FC = () => {
         </div>
         <div className='AboutSection__container__content--expert'>
           <div>
-            <img src='/images/Ava.svg' alt='Ava' />
+            <img src='images/Ava.svg' alt='Ava' />
           </div>
           <div>
             <span className='AboutSection__container__content--expert---black'>
