@@ -1,0 +1,91 @@
+@import '../../styles/variables';
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageBox {
+    position: relative;
+    width: 216px;
+    max-height: 292px;
+    margin-bottom: 19px;
+    @media (max-width: $bp-s) {
+        min-width: 430px;
+    }
+
+    img {
+        width: 100%;
+        height: 292px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .imageBox-mark {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        height: 32px;
+        @media (max-width: $bp-s) {
+            width: 80%;
+        }
+        span {
+            display: inline-block;
+            max-width: 112px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 10px;
+            font-size: 13px;
+            height: 32px;
+        }
+        img {
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+    }
+}
+
+.textBox {
+    width: 100%;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 19px;
+    vertical-align: middle;
+
+    p {
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    span {
+        font-size: 15px;
+        line-height: 21px;
+        color: $color-gray;
+    }
+
+    .dot {
+        vertical-align: text-bottom;
+        margin: 0 3px;
+    }
+    .rate {
+        padding: 5px 0 0 20px;
+        font-size: 13px;
+        position: relative;
+        &::before {
+            content: url('../../../public/images/main/slider/rate.svg');
+            position: absolute;
+            left: 0;
+            top: 3px;
+        }
+    }
+}

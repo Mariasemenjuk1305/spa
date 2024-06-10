@@ -1,0 +1,23 @@
+.wrapperButtonLeft {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &_button {
+        width: 16px;
+        height: 14px;
+        position: relative;
+        margin: 0 auto;
+    }
+}

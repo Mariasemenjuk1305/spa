@@ -1,0 +1,154 @@
+@import '../../styles/variables';
+
+.AboutSection {  
+  &__container {
+    padding: 5px 0;
+    margin: 0 auto;
+
+    &__content {
+      &--title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        @media (max-width: $bp-s) {
+          justify-content: flex-start;
+          gap: 15px;
+        }
+        width: 100%;
+        & > span {
+          font-size: 28px;
+          line-height: 36px;
+          font-weight: 600;
+        }
+
+        &---wishlist {
+          &::before {
+            content: url('../../../public/images/bookmark-small.svg');
+            position: absolute;
+            left: 0;
+          }
+        }
+
+        &---share {
+          &::before {
+            content: url('../../../public/images/share-small.svg');
+            position: absolute;
+            left: 0;
+          }
+        }
+      }
+      &--expert {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 15px 0;
+        & > div {
+          display: flex;
+          flex-direction: column;
+
+          & span {
+            margin-left: 15px;
+          }
+
+          .AboutSection__container__content--expert---gray {
+            color: $color-gray;
+            line-height: 21px;
+          }
+
+          .AboutSection__container__content--expert---black {
+            color: $color-black;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 25px;
+          }
+        }
+      }
+      &--txt {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 20px;
+      }
+      &--flight {
+        margin: 20px 0;
+        &---title {
+          font-size: 22px;
+          line-height: 28px;
+          font-weight: 600;
+        }
+
+        & form {
+          margin: 30px 0;
+          padding: 20px;
+          border: 1px solid #ccd7f1;
+          box-shadow: 0px 2px 5px 0 rgba(220, 227, 246, 0.5);
+          background: #f0f4fd;
+          border-radius: 16px;
+          display: flex;
+          justify-content: space-between;
+          @media (max-width: $bp-s) {
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+          }
+          & > img {
+            @media (max-width: $bp-s) {
+              display: none;
+            }
+          }
+          & input {
+            border: 1px solid rgba(151, 151, 151, 0.3);
+            padding: 10px 12px;
+            border-radius: 8px;
+            position: relative;
+            max-width: 179px;
+            width: 100%;
+            @media (max-width: $bp-s) {
+              width: 100%;
+              max-width: 100%;
+              margin: 0 auto;
+            }
+          }
+          & i {
+            position: absolute;
+            left: 23px;
+            top: 2px;
+            @media (max-width: $bp-s) {
+              left: 5px;
+            }
+          }
+          & > div {
+            position: relative;
+            &:last-child i {
+              left: 5px;
+            }
+          }
+          & input[name='flight-date'] {
+            margin: 0 16px;
+            padding-left: 35px;
+            text-align: center;
+            width: 157px;
+            @media (max-width: $bp-s) {
+              width: 100%;
+              max-width: 100%;
+              margin: 0 auto;
+              text-align: left;
+            }
+          }
+          & input[name='flight-person'] {
+            max-width: 70px;
+            width: 100%;
+            padding-left: 35px;
+            text-align: center;
+            @media (max-width: $bp-s) {
+              width: 100%;
+              max-width: 100%;
+              margin: 0 auto;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}

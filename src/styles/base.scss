@@ -1,0 +1,81 @@
+@import './variables';
+
+@import './fonts';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'SFProText', sans-serif;
+    letter-spacing: 1px;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'SFProText', sans-serif;
+    font-weight: 400;
+    background-color: $color-bg;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    font-family: 'SFProText', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+span{
+    font-size: 15px;
+}
+
+.Btn{
+    border: 1px solid rgba(151, 151, 151, 0.3);
+    border-radius: 8px;
+    line-height: 32px;
+    padding: 7px 12px 7px 32px;
+    font-weight: 600;
+    margin: 0 5px;
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.03);
+    position: relative;
+    cursor: pointer;
+    @media (max-width: $bp-s) {
+        & {
+          margin: 0 5px 0 0;
+        }
+    }
+}
+
+.Title{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Label{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    color: $color-gray;
+    padding: 12px 7px;
+    border-radius: 8px;
+    background: $bg-blue;
+    display: inline-block;
+}
+
+.Text{
+    font-size: 15px;
+    font-weight: 500;
+    color: $color-gray;
+}
+
+input {
+}
+
+img {
+}

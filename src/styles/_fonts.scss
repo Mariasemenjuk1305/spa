@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 400 800;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/manrope/v14/xn7gYHE41ni1AdIRggexSg.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: IntegralCf;
+    src: local("IntegralCf"),
+      url("../assets/fonts/IntegralCF-Bold.woff2") format("woff2");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: SFProText;
+    src: local("SFProText"),
+      url("../assets/fonts/SFProDisplay-Regular.woff2") format("woff2");
+    font-weight: 400;
+  }

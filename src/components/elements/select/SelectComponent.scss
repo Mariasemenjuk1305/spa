@@ -1,0 +1,23 @@
+.SelectBox {
+    display: inline-block;
+    &--select {
+        border: 0px;
+        outline: 0px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 32px;
+        padding: 0 2rem 0 20px;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+        background: url("../../../../public/images/intro/arrow.svg") 85% 50% no-repeat;
+        cursor: pointer;
+        & > option {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 32px;
+            padding: 10px;
+        }
+    }
+}
